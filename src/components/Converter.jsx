@@ -7,7 +7,7 @@ import gbp from '../assets/gbp.png'
 export default function Converter() {
 const [bedrag, setBedrag] = useState('');
 const [van, setVan] = useState('USD');
-const [naar, setNaar] = useState('EUR');
+const [naar, setNaar] = useState('USD');
 const [resultaat, setResultaat] = useState(null);
 const [fout, setFout] = useState(null);
 
@@ -34,7 +34,7 @@ async function omrekenen() {
 const vlaggen = {
     'USD': usd,
     'EUR': eur,
-    'GBP': gbp
+    'GBP': gbp,
 };
 
 
@@ -53,7 +53,7 @@ return(
         <span> 🔄  </span>
 
         <img src={vlaggen[naar]} className="flag"/>
-        <select value={naar} onChange={(e) => setNaar(e.target.value)} > 
+        <select value={naar} onChange={(e) => setNaar(e.target.value)} >
             <option value="USD">USD</option>  
             <option value="EUR">EUR</option>  
             <option value="GBP">GBP</option>  
