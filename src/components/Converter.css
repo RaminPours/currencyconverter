@@ -1,0 +1,61 @@
+.converter {
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    height: 480px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+}
+
+.converter-box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+}
+
+.converter-box input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.converter-box select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.converter-box button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+span {
+    font-size: larger;
+    text-align: center;
+}
+
+.flag{
+    width: 23px;
+    height: 23px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
