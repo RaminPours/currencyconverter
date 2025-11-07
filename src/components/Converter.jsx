@@ -50,7 +50,7 @@ return(
             <option value="GBP">GBP</option>  
         </select> 
 
-        <span> 🔄  </span>
+        <span>🔄</span>
 
         <img src={vlaggen[naar]} className="flag"/>
         <select value={naar} onChange={(e) => setNaar(e.target.value)} >
