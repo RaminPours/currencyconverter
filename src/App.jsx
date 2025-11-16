@@ -1,4 +1,4 @@
-import Converter from './components/converter'
+import Converter from './components/Converter'
 import React from 'react'
 
 function App() {
