@@ -1,4 +1,4 @@
-import "./converter.css";
+import Converter from './styles/Converter.css'
 import { useState } from 'react'
 import usd from '../assets/usd.png'
 import eur from '../assets/eur.png'
